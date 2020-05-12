@@ -1,0 +1,40 @@
+{
+  "name": "reactdemo",
+  "version": "1.0.0",
+  "description": "Demo for react framework",
+   "homepage": "http://prawinn555.github.io/reactdemo",
+  "devDependencies": {
+    "prettier": "^1.13.0",
+    "react-scripts": "^3.4.1",
+    "gh-pages": "^2.2.0"
+  },
+  "dependencies": {
+    "@rjsf/core": "^2.0.0",
+    "bootstrap": "^4.4.1",
+    "glyphicons": "^0.2.0",
+    "glyphicons-only-bootstrap": "^1.0.1",
+    "react": "^16.8.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.8.0",
+    "react-json-view": "^1.19.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
